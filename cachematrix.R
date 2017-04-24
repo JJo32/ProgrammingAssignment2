@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
         }
         getmatrix <- function() x
-        setmatrixcache <- function(inverse) matrixcache <<- inverse
+        setmatrixcache <- function(solved) matrixcache <<- solved
         getmatrixcache <- function() matrixcache
 
         list(setmatrix = setmatrix,
